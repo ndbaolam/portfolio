@@ -14,12 +14,10 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent md:text-5xl heading"
       >
-        <h1 className="heading">
           <span className="text-white">A small selection of{" "}</span>
-          <span className="text-purple">recent projects</span>
-        </h1>        
+          <span className="text-purple">recent projects</span>        
       </motion.h1>
     </LampContainer>
   );
